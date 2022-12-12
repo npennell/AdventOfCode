@@ -1,10 +1,7 @@
+import utilFile
 # store input
-inputArray = []
-with open('../Data/inputDay1.txt') as input:
-    for line in input:
-        line = line.strip('\n')
-        line = line.strip('\t')
-        inputArray.append(line)
+path = '../AdventOfCode/2022/Data/inputDay1.txt'
+inputArray = utilFile.storeInput(path)
 
 currentCalories = 0
 topHighest = [0,0,0]
