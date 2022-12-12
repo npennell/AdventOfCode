@@ -6,4 +6,5 @@ def storeInput(path):
             line = line.strip('\n')
             line = line.strip('\t')
             inputArray.append(line)
+            
     return inputArray
